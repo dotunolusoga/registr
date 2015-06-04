@@ -27,6 +27,8 @@ gem 'haml'
 gem 'simple_form'
 gem 'sorcery'
 gem 'rubocop'
+gem 'bourbon'
+gem 'neat'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
