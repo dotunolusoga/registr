@@ -15,6 +15,8 @@ RSpec.feature "Students leaderboard", type: :feature do
       page.should have_content("Adedotun Olusoga")
       page.should have_content("Barack Obama")
     end
+    page.should have_content("Record Attendance")
+    page.should have_content("Plan Absence")
   end
 end
 
