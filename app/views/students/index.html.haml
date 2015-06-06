@@ -1,0 +1,12 @@
+%table
+  %tbody
+    %tr
+      %th Students
+      %th Attendance
+  - StudentsController.new.list_students.each do |student|
+    %tr
+      %td
+        #{student.name}
+
+
+= link_to "Record Attendance", new_attendance_path
